@@ -64,6 +64,7 @@ jobs:
           no_output_timeout: 60m
           command: |
             echo "0. Installing dependencies..."
+            pip install -U pip setuptools --user python 
             python3 -m venv venv
             . venv/bin/activate
             pip install jupyter-repo2docker
