@@ -67,6 +67,7 @@ jobs:
             python3 -m venv venv
             . venv/bin/activate
             pip install ruamel.yaml==0.15
+            pip install chardet
             pip install jupyter-repo2docker
             export VERSION=$(python3 -c "import repo2docker; print(repo2docker.__version__)")
             echo "repo2docker version: ${VERSION}"
