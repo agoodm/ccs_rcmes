@@ -4,6 +4,7 @@ channels:
   - conda-forge
 dependencies:
   - python=3.6
+  - pot
   - awscli=1.16.210
   - basemap=1.2.0
   - beautifulsoup4=4.8.0
