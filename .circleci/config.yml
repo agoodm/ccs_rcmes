@@ -66,8 +66,7 @@ jobs:
             echo "0. Installing dependencies..."
             python3 -m venv venv
             . venv/bin/activate
-            pip install ruamel.yaml==0.15
-            pip install chardet
+            pip install --upgrade pip             
             pip install jupyter-repo2docker
             export VERSION=$(python3 -c "import repo2docker; print(repo2docker.__version__)")
             echo "repo2docker version: ${VERSION}"
@@ -131,7 +130,7 @@ jobs:
   update_cache:
     machine:
       # Ubuntu 14.04 with Docker 17.10.0-ce
-      image: circleci/classic:201711-01
+      image: ubuntu-2004:202201-02
     working_directory: /tmp/src
     steps:
       - attach_workspace:
@@ -143,7 +142,7 @@ jobs:
 
   deploy:
     machine:
-      image: circleci/classic:201711-01
+      image: ubuntu-2004:202201-02
     working_directory: /tmp/src
     steps:
       - attach_workspace:
