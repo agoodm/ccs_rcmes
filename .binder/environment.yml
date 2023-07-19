@@ -3,30 +3,30 @@ channels:
   - defaults
   - conda-forge
 dependencies:
-  - python=3.6
+  - python=3.7
+  - numpy=1.20.0
   - pot
-  - awscli=1.16.210
-  - basemap=1.2.0
-  - beautifulsoup4=4.8.0
-  - botocore=1.12.200
-  - cartopy=0.16.0
-  - cftime=1.0.3.4
-  - chardet=3.0.4
-  - gudhi=3.1.1
-  - h5py=2.9.0
-  - healpy=1.12.9
-  - jinja2=2.10.1
-  - matplotlib=3.1.3
-  - netcdf4=1.4.2
-  - netcdftime=1.0.0a2
-  - numpy=1.17.0
-  - pandas=0.24.2
-  - pillow=6.1.0
-  - pip=19.1.1
-  - podaacpy=2.2.1
-  - pyresample=1.12.3
-  - scipy=1.3.0
-  - tqdm=4.32.1
-  - xarray=0.12.1
+  - awscli
+  - basemap
+  - beautifulsoup4
+  - botocore
+  - cartopy
+  - cftime
+  - chardet
+  - gudhi
+  - h5py
+  - healpy
+  - jinja2
+  - matplotlib
+  - netcdf4
+  - netcdftime
+  - pandas
+  - pillow=
+  - pip
+  - podaacpy
+  - pyresample
+  - scipy
+  - tqdm
+  - xarray
   - openvisus
   - bokeh
