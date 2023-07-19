@@ -19,9 +19,8 @@ dependencies:
   - jinja2
   - matplotlib
   - netcdf4
-  - netcdftime
   - pandas
-  - pillow=
+  - pillow
   - pip
   - podaacpy
   - pyresample
