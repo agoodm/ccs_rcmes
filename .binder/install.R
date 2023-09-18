@@ -1,5 +1,6 @@
 install.packages("shiny")
 install.packages("shinydashboard")
+install.packages("esd")
 install.packages("leaflet")
 install.packages("plotly")
 install.packages("RColorBrewer"
