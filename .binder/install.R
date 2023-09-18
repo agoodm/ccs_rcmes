@@ -1,6 +1,5 @@
 install.packages("shiny")
 install.packages("shinydashboard")
-install.packages("esd")
 install.packages("leaflet")
 install.packages("plotly")
 install.packages("RColorBrewer"
@@ -17,3 +16,5 @@ install.packages("pkgdown")
 install.packages("profvis")
 install.packages("roxygen2")
 install.packages("testthat")
+library('devtools')
+install_github('metno/esd')
