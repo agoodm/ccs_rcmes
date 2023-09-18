@@ -1,4 +1,8 @@
+install.packages("shiny")
 install.packages("shinydashboard")
+install.packages("leaflet")
+install.packages("plotly")
+install.packages("RColorBrewer"
 install.packages("zip")
 install.packages("diffobj") 
 install.packages("gert")
