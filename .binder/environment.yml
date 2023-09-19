@@ -4,8 +4,6 @@ channels:
   - conda-forge
 dependencies:
   - python=3.7
-  - jupyter-rsession-proxy
-  - jupyter-shiny-proxy
   - numpy
   - pot
   - awscli
