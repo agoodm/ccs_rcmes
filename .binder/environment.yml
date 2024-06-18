@@ -4,6 +4,7 @@ channels:
   - conda-forge
 dependencies:
   - python=3.7
+  - dask
   - numpy
   - pot
   - awscli
