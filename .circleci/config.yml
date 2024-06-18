@@ -20,8 +20,8 @@ jobs:
     environment:
       - TZ: "/usr/share/zoneinfo/America/Los_Angeles"
     docker:
-      - image: docker:18.01.0-ce-git
-      - image: circleci/python:3.6.1
+      - image: docker:24.09.0-ce-git
+      - image: circleci/python:3.7.1
     steps:
       - run:
           name: Test if the user has defined the repository name
@@ -31,7 +31,7 @@ jobs:
     environment:
       - TZ: "/usr/share/zoneinfo/America/Los_Angeles"
     docker:
-      - image: docker:18.01.0-ce-git
+      - image: docker:24.09.0-ce-git
     working_directory: /tmp/src
     steps:
       - run:
